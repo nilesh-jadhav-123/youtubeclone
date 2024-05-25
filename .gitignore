@@ -1,0 +1,41 @@
+# Ignore comments in the .gitignore file
+# This allows using comments without affecting gitignore rules
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+dist
+dist-ssr
+
+# Local development files
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Visual Studio files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Compiled binaries
+*.sw?
+
+# macOS directory attributes
+.DS_Store
+
+# Environment variables
+.env
+
+# Add any additional project-specific ignores below this line
+
